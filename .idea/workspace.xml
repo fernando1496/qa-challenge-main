@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d39ee7e-6098-456b-88dd-37db8c84dcf9" name="Changes" comment="" />
+    <list default="true" id="7d39ee7e-6098-456b-88dd-37db8c84dcf9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ui/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ui/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ui/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ui/Base.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ui/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ui/LoginTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ui/common/CommonCommands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ui/common/CommonCommands.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ui/pages/Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ui/pages/Inventory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ui/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ui/pages/LoginPage.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +22,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 2
@@ -26,9 +39,86 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/PERSONAL/Projects/qa-challenge-main"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\PERSONAL\Projects\qa-challenge-main" />
+      <recent name="D:\PERSONAL\Projects\qa-challenge-main\webdrivers" />
+      <recent name="D:\PERSONAL\Projects\qa-challenge-main\src\main\java\org\example" />
+      <recent name="D:\PERSONAL\Projects\qa-challenge-main\src\main\java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.ui.common" />
+      <recent name="org.example.ui.pages" />
+      <recent name="org.example" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.LoginTests.LoginWithValidCredentials">
+    <configuration name="LoginTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="qa-challenge-main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.ui.LoginTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTests.LoginWithValidCredentials" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="qa-challenge-main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.ui" />
+      <option name="MAIN_CLASS_NAME" value="org.example.ui.LoginTests" />
+      <option name="METHOD_NAME" value="LoginWithValidCredentials" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTests.Test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="qa-challenge-main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.ui.LoginTests" />
+      <option name="METHOD_NAME" value="Test" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.LoginTests.LoginWithValidCredentials" />
+        <item itemvalue="TestNG.LoginTests.Test" />
+        <item itemvalue="TestNG.LoginTests" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -39,5 +129,16 @@
       <updated>1701467763884</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
