@@ -28,8 +28,8 @@ This is a Java-based automation framework for testing web applications using sel
 Before you begin using this framework, ensure that you have the following installed:
 
 - Java Development Kit (JDK)
-- Java 8
-- Apache Maven
+- Java 11
+- Apache Maven(This is very important, take into consideration to check if you have it installed, newer OS version of mac don't have it installed by default, you will need to use homebrew to install maven)
 
 
 ## Getting Started
