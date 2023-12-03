@@ -4,11 +4,10 @@
     <listeners>
         <listener class-name="org.example.ui.listeners.TestExecutionListener"/>
     </listeners>
-    <test name="Regression_Tests">
+    <test name="Ui_Regression_Tests">
         <classes>
             <class name="org.example.ui.LoginTests" />
             <class name="org.example.ui.InventoryTests" />
-            <class name="org.example.api.PetTests" />
         </classes>
     </test>
 </suite>

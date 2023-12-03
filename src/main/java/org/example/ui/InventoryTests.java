@@ -1,7 +1,7 @@
 package org.example.ui;
 
 import io.qameta.allure.*;
-import org.example.ui.listeners.TestExecutionListener;
+import org.example.api.listeners.TestExecutionListener;
 import org.testng.Assert;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;

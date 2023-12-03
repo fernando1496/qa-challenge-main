@@ -5,14 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d39ee7e-6098-456b-88dd-37db8c84dcf9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/api/Base.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/api/PetTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/api/json/findPetByStatusPayload.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/api/pages/Pet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-regression.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/api/json/postPetPayloadUpdated.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/api/listeners/TestExecutionListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ui/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/api/PetTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/api/PetTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/api/json/findPetByStatusPayload.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/api/json/postPetPayload.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/api/pages/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/api/pages/Pet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ui/InventoryTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ui/InventoryTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ui/listeners/TestExecutionListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ui/listeners/TestExecutionListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ui-regression.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ui-regression.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,16 +57,17 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/darkv/Downloads/api-test-master/api-test-master",
+    "last_opened_file_path": "D:/PERSONAL/Projects/qa-challenge-main/src/main/java/org/example/api/json",
     "settings.editor.selected.configurable": "MavenSettings"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\PERSONAL\Projects\qa-challenge-main\src\main\java\org\example\api\json" />
       <recent name="D:\PERSONAL\Projects\qa-challenge-main" />
+      <recent name="D:\PERSONAL\Projects\qa-challenge-main\src\main\java\org\example\api" />
       <recent name="D:\PERSONAL\Projects\qa-challenge-main\webdrivers" />
       <recent name="D:\PERSONAL\Projects\qa-challenge-main\src\main\java\org\example" />
-      <recent name="D:\PERSONAL\Projects\qa-challenge-main\src\main\java" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\PERSONAL\Projects\qa-challenge-main\src\main\java\org\example\api\json" />
@@ -78,79 +81,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.PetTests.testFindPetByStatus">
-    <configuration name="InventoryTests.OrderProductByNameAsc" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="qa-challenge-main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.ui.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.ui" />
-      <option name="MAIN_CLASS_NAME" value="org.example.ui.InventoryTests" />
-      <option name="METHOD_NAME" value="OrderProductByNameAsc" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InventoryTests.OrderProductByPriceAsc" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="qa-challenge-main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.ui.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.ui" />
-      <option name="MAIN_CLASS_NAME" value="org.example.ui.InventoryTests" />
-      <option name="METHOD_NAME" value="OrderProductByPriceAsc" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InventoryTests.OrderProductByPriceDesc" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="qa-challenge-main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.ui.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.ui" />
-      <option name="MAIN_CLASS_NAME" value="org.example.ui.InventoryTests" />
-      <option name="METHOD_NAME" value="OrderProductByPriceDesc" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PetTests.findPetByStatus" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="qa-challenge-main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.api.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.api" />
-      <option name="MAIN_CLASS_NAME" value="org.example.api.PetTests" />
-      <option name="METHOD_NAME" value="findPetByStatus" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.PetTests.testRemovePet">
     <configuration name="PetTests.testFindPetByStatus" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="qa-challenge-main" />
       <extension name="coverage">
@@ -169,13 +100,85 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PetTests.testPostPet" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="qa-challenge-main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.api" />
+      <option name="MAIN_CLASS_NAME" value="org.example.api.PetTests" />
+      <option name="METHOD_NAME" value="testPostPet" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PetTests.testPutPet" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="qa-challenge-main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.api" />
+      <option name="MAIN_CLASS_NAME" value="org.example.api.PetTests" />
+      <option name="METHOD_NAME" value="testPutPet" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PetTests.testRemovePet" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="qa-challenge-main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.api" />
+      <option name="MAIN_CLASS_NAME" value="org.example.api.PetTests" />
+      <option name="METHOD_NAME" value="testRemovePet" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PetTests.testVerifyUpdatedPet" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="qa-challenge-main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.api" />
+      <option name="MAIN_CLASS_NAME" value="org.example.api.PetTests" />
+      <option name="METHOD_NAME" value="testVerifyUpdatedPet" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.PetTests.testRemovePet" />
+        <item itemvalue="TestNG.PetTests.testVerifyUpdatedPet" />
+        <item itemvalue="TestNG.PetTests.testPutPet" />
+        <item itemvalue="TestNG.PetTests.testPostPet" />
         <item itemvalue="TestNG.PetTests.testFindPetByStatus" />
-        <item itemvalue="TestNG.PetTests.findPetByStatus" />
-        <item itemvalue="TestNG.InventoryTests.OrderProductByPriceDesc" />
-        <item itemvalue="TestNG.InventoryTests.OrderProductByPriceAsc" />
-        <item itemvalue="TestNG.InventoryTests.OrderProductByNameAsc" />
       </list>
     </recent_temporary>
   </component>

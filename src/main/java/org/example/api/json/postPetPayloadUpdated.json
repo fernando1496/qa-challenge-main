@@ -1,16 +1,16 @@
 {
-  "id": 0,
+  "id": 1500,
   "category": {
-    "id": 0,
-    "name": "string"
+    "id": 15,
+    "name": "test_category"
   },
-  "name": "doggie",
+  "name": "cat",
   "photoUrls": [
     "string"
   ],
   "tags": [
     {
-      "id": 0,
+      "id": 1,
       "name": "string"
     }
   ],
