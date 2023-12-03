@@ -43,7 +43,7 @@ public class LoginTests extends Base{
     @Story("Login feature")
     @Description("Verify error message is displayed when user tries to log in with invalid credentials.")
     private void LogInWithInvalidCredentials(){
-        loginPage.typeUsername("locked_out_user");
+        loginPage.typeUsername("standard_user");
         loginPage.typePassword("bad_pass");
         loginPage.clickLoginButton();
         Assert.assertEquals(driver.getCurrentUrl(),"https://www.saucedemo.com/");

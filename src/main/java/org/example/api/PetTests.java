@@ -136,4 +136,18 @@ public class PetTests extends Base{
                 .statusCode(200);
     }
 
+    @Test(description = "Verify pet pet creation endpoint using an invalid format.")
+    @Severity(SeverityLevel.CRITICAL)
+    @Story("Pet")
+    @Description("This is a sample test that will fail due bad json.")
+    public void testCreationInvalidFormat() throws IOException {
+
+        String jsonFilePath =  curentDir + "/src/main/java/org/example/api/json/postPetPayloadInvalid.json";
+        String jsonPayload = new String(Files.readAllBytes(Paths.get(jsonFilePath)));
+        Response response = pet.postNewPet(jsonPayload);
+        String result = response.then()
+                .statusCode(400)
+                .extract().response().asString();
+    }
+
 }

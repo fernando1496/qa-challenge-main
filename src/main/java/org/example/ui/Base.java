@@ -26,6 +26,7 @@ public class Base {
         WebDriverManager.chromedriver().setup();
         ChromeOptions chromeOptions = new ChromeOptions();
         chromeOptions.addArguments("--no-sandbox");
+        //You can remove headless option for local execution, CircleCI execution needs to be headless
         chromeOptions.addArguments("--headless");
         chromeOptions.addArguments("disable-gpu");
         driver = new ChromeDriver(chromeOptions);

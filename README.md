@@ -52,3 +52,7 @@ The structure of this automation framework support execution from shell scrips(m
 2. To generate and open tests results after execution you can use:
    ```shell
    allure serve allure-results
+
+## CircleCI
+
+In config.yml we have all the configurations, you can set it up in your own github repo and link it to circleCI
