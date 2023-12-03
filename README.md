@@ -9,7 +9,11 @@ This is a Java-based automation framework for testing web applications using sel
 
 - **TestNG Integration:** TestNG is used as the test framework, providing features like test parallelization, data-driven testing, and reporting.
 
-- **WebDriver:** WebDriver is used for browser automation, allowing you to write tests for various web browsers.
+- **WebDriverManager:** WebDriver is used for browser automation, allowing you to write tests for various web browsers. The automation framework handles the web driver configuration automatically
+
+- **Selenium:** Selenium is used to do the UI web automation.
+
+- **RestAssured:** Selenium is used to do the UI web automation.
 
 - **Page Object Model (POM):** The framework follows the Page Object Model design pattern, promoting code reusability and maintainability.
 
@@ -33,4 +37,18 @@ Before you begin using this framework, ensure that you have the following instal
 1. Clone this repository to your local machine:
 
    ```shell
-   git clone https://github.com/your-username/java-maven-automation-framework.git
+   git clone https://github.com/fernando1496/qa-challenge-main.git
+
+2. Open the project in Eclipse or intelliJ
+3.  Wait for all the dependecies to be downloaded.
+
+## Automation framework tests execution 
+The structure of this automation framework support execution from shell scrips(maven) and individual test and classes execution.
+
+1. To run full regression suite using a shell command in terminal you can use:
+
+   ```shell
+   mvn clean test
+2. To generate and open tests results after execution you can use:
+   ```shell
+   allure serve allure-results

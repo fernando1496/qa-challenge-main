@@ -8,6 +8,7 @@
         <classes>
             <class name="org.example.ui.LoginTests" />
             <class name="org.example.ui.InventoryTests" />
+            <class name="org.example.api.PetTests" />
         </classes>
     </test>
 </suite>
