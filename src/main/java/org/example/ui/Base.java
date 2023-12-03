@@ -1,6 +1,7 @@
 package org.example.ui;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import io.qameta.allure.Description;
 import org.example.ui.common.CommonCommands;
 import org.example.ui.pages.Inventory;
 import org.example.ui.pages.LoginPage;
@@ -18,7 +19,7 @@ public class Base {
     protected CommonCommands commonCommands;
     protected Inventory inventory;
 
-
+    @Description("Web driver preparation.")
     @BeforeMethod
     public void beforeEveryMethod(){
         WebDriverManager.chromedriver().setup();
@@ -31,7 +32,7 @@ public class Base {
         inventory = new Inventory(driver);
 }
 
-
+    @Description("Data clean up activities.")
     @AfterMethod
     public void afterEveryClass() {
         driver.quit();

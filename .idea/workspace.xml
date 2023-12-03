@@ -5,20 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d39ee7e-6098-456b-88dd-37db8c84dcf9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ui/InventoryTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ui/listeners/TestExecutionListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ui/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ui/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ui/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ui/Base.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ui/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ui/LoginTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ui/common/CommonCommands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ui/common/CommonCommands.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ui/pages/Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ui/pages/Inventory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ui/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ui/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-regression.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ui-regression.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -26,9 +36,16 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="usePluginRegistry" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2YxWZ4xTln4XFAzPNVt5q9brr9r" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -41,7 +58,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/PERSONAL/Projects/qa-challenge-main"
+    "last_opened_file_path": "C:/Users/darkv/Downloads/Swagger-Petstore-API-Automation-main/Swagger-Petstore-API-Automation-main",
+    "settings.editor.selected.configurable": "MavenSettings"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -52,13 +70,24 @@
       <recent name="D:\PERSONAL\Projects\qa-challenge-main\src\main\java" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.ui" />
       <recent name="org.example.ui.common" />
       <recent name="org.example.ui.pages" />
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.LoginTests.LoginWithValidCredentials">
-    <configuration name="LoginTests" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.InventoryTests.OrderProductByPriceDesc">
+    <configuration name="D:/PERSONAL/Projects/qa-challenge-main/ui-regression.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="qa-challenge-main" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/ui-regression.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InventoryTests.OrderProductByNameAsc" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="qa-challenge-main" />
       <extension name="coverage">
         <pattern>
@@ -66,9 +95,46 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.ui.LoginTests" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="org.example.ui" />
+      <option name="MAIN_CLASS_NAME" value="org.example.ui.InventoryTests" />
+      <option name="METHOD_NAME" value="OrderProductByNameAsc" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InventoryTests.OrderProductByPriceAsc" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="qa-challenge-main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.ui" />
+      <option name="MAIN_CLASS_NAME" value="org.example.ui.InventoryTests" />
+      <option name="METHOD_NAME" value="OrderProductByPriceAsc" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InventoryTests.OrderProductByPriceDesc" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="qa-challenge-main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.ui" />
+      <option name="MAIN_CLASS_NAME" value="org.example.ui.InventoryTests" />
+      <option name="METHOD_NAME" value="OrderProductByPriceDesc" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -79,7 +145,7 @@
       <module name="qa-challenge-main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.ui.*" />
+          <option name="PATTERN" value="org.example.ui.listeners.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,29 +159,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTests.Test" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="qa-challenge-main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.ui.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.ui.LoginTests" />
-      <option name="METHOD_NAME" value="Test" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.InventoryTests.OrderProductByPriceDesc" />
+        <item itemvalue="TestNG.InventoryTests.OrderProductByPriceAsc" />
+        <item itemvalue="TestNG.InventoryTests.OrderProductByNameAsc" />
+        <item itemvalue="TestNG.D:/PERSONAL/Projects/qa-challenge-main/ui-regression.xml" />
         <item itemvalue="TestNG.LoginTests.LoginWithValidCredentials" />
-        <item itemvalue="TestNG.LoginTests.Test" />
-        <item itemvalue="TestNG.LoginTests" />
       </list>
     </recent_temporary>
   </component>

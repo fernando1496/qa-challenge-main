@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="UI_Suite">
+    <listeners>
+        <listener class-name="org.example.ui.listeners.TestExecutionListener"/>
+    </listeners>
+    <test name="Regression_Tests">
+        <classes>
+            <class name="org.example.ui.LoginTests" />
+            <class name="org.example.ui.InventoryTests" />
+        </classes>
+    </test>
+</suite>
